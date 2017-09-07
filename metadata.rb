@@ -25,7 +25,9 @@ supports 'mac_os_x'
 
 depends 'atom', '~> 0.2.0'
 depends 'chocolatey', '~> 1.0'
-depends 'homebrew', '~> 2.0'
+# Finding an error with homebrew 2.1.2 
+# > undefined method `find' for Chef::Platform:Class
+# depends 'homebrew', '~> 2.0'
 depends 'line', '~> 0.6'
 depends 'vagrant', '~> 0.5'
 depends 'windows', '~> 1.39'
